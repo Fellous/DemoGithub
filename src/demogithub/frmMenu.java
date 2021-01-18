@@ -30,6 +30,7 @@ public class frmMenu extends javax.swing.JFrame {
     private void initComponents() {
 
         btnDemo = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -40,6 +41,8 @@ public class frmMenu extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setText("Buffeteau");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -48,11 +51,17 @@ public class frmMenu extends javax.swing.JFrame {
                 .addContainerGap(184, Short.MAX_VALUE)
                 .addComponent(btnDemo)
                 .addGap(157, 157, 157))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(40, 40, 40)
+                .addComponent(jButton1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(91, 91, 91)
+                .addGap(38, 38, 38)
+                .addComponent(jButton1)
+                .addGap(28, 28, 28)
                 .addComponent(btnDemo, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(157, Short.MAX_VALUE))
         );
@@ -67,6 +76,8 @@ public class frmMenu extends javax.swing.JFrame {
         int i = 0 ;
         
         int j = 12 ;
+        
+        int dede = 14;
     }//GEN-LAST:event_btnDemoMouseClicked
 
     /**
@@ -106,5 +117,6 @@ public class frmMenu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDemo;
+    private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
 }
